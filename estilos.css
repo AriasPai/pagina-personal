@@ -1,0 +1,354 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  background: #EAE0E0;
+}
+
+
+
+p {
+font-size: 20px;
+
+}
+
+li {
+list-style: none;
+margin-right: 25px;
+ }
+
+
+
+
+.ultimo {
+  background: blue;
+
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.lista{
+display: flex;
+text-decoration: none;
+
+}
+
+
+a {
+  font-size: 15px;
+  background: linear-gradient(rgb(81,91,212),rgb(129,52,175));
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+
+.titular {
+text-align: center;
+margin-top: 200px;
+}
+
+h1 {
+font-size: 60px;
+margin:0;
+
+}
+
+h2 {
+font-size: 25px;
+margin-bottom: 30px
+
+}
+
+header {
+background: url(fondoo.jpg);
+height: 100vh;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.contenedor {
+max-width:  1280px;
+width: 90%;
+margin: auto;
+}
+
+/*aca va todo sobre mi*/
+h3 {
+text-align: center;
+font-size: 50px;
+font-weight: normal;
+}
+
+.Contenedor-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #E6E3E3;
+
+}
+
+.contenedor-parrafo-y-boton{
+  width: 42%;
+
+}
+
+.contenedor-parrafo-y-boton p{
+font-size: 18px;
+
+}
+
+.parrafo-final {
+  margin-bottom: 40px;
+
+}
+
+/*Mercadotecnia*/
+
+.contenedor-servicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.servicios {
+  width: 20%;
+  padding: 40px 20px 40px 28px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.cafe {
+  background: #E6E6E6
+}
+
+.amarillo {
+  background: #C9C9C9
+}
+
+.servicios h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.servicios img {
+  max-width: 300px;
+
+}
+
+.servicios p {
+  font-size: 25px;
+  height: 20px;
+}
+
+/*Carousel*/
+spam {
+font-size: 80px;
+color: blue;
+
+}
+
+.owl-nav {
+text-align: center;
+
+}
+
+/*pdf*/
+#pdf {
+width: 700px;
+height: 1100px;
+
+
+}
+/*Titulos*/
+.titular a {
+text-decoration: none
+}
+
+.contenedor-porque {
+display: flex;
+text-align: center;
+justify-content: space-around;
+
+}
+
+
+.contenedor-porque h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.contenedor-porque p {
+font-size: 16px;
+line-height: 28px;
+}
+
+.porque-singular {
+  width: 28%;
+}
+
+/*Blog*/
+
+#blog {
+background: #F9F9F9;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.contenedor-publicaciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.publicacion {
+width: 30%;
+box-shadow: 1px 1px 14px #ccc;
+padding-bottom: 20px;
+}
+
+#blog img {
+width: 100%;
+}
+
+#blog h4 {
+  font-size: 23px;
+  margin: 0;
+  padding: 20px;
+}
+
+#blog p {
+color. #546169;
+line-height: 24px;
+font-size: 16px;
+padding: 10px 20px 20px 20px;
+}
+
+#blog a {
+display: inline-block;
+margin-left: 20px;
+}s
+
+.publicacion-segunda img {
+  height: 245px;
+}
+
+.primer-parrafo {
+  padding: 0px 20px 20px 20px !important;
+}
+
+/*Cokkies*/
+#que-esperas {
+background: linear-gradient(rgb(84,93,220),rgb(93,171,245));
+text-align: center;
+padding: 50px 0 50px 0;
+}
+
+#que-esperas h3 {
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 40px;
+
+}
+
+#que-esperas a {
+padding: 15px 45px 15px 45px;
+transition: 1s;
+}
+
+#que-esperas a:hover {
+color:black;
+transition: 1s;
+transform: scale(1.1);
+display:inline-block;
+}
+
+/*Boton flotante*/
+#whatsapp a {
+background: none;
+position: fixed;
+top: 80%;
+right: 25px;
+}
+
+
+.correo a {
+background: None;
+position: fixed;
+top: 80%;
+right:150px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+}
+
+.form-register {
+  width: 400px;
+  background: #5EA5A7;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #D2D2D2;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #D2D2D2;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #D2D2D2;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
